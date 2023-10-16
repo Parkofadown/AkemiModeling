@@ -5,7 +5,10 @@
     p{
         text-align: center; font-size:20px; padding:5px
     }
-   
+   #image-container{
+    height: fit-content;
+    width: fit-content;
+   }
 }
 @media (min-width: 481px) and (max-width: 1200px){
     body{
@@ -14,7 +17,10 @@
     p{
         text-align: center; font-size:20px; padding:5px
     }
-
+  #image-container{
+    height: fit-content;
+    width: fit-content;
+   }
 }
 @media (min-width: 1201px) and (max-width: 1600px){
     body{
@@ -23,7 +29,10 @@
     p{
         text-align: center; font-size:20px; padding:5px
     }
- 
+    #image-container{
+        height: fit-content;
+        width: fit-content;
+    }
 }
 @media (min-width: 1601px){
     body{
@@ -32,5 +41,8 @@
     p{
         text-align: center; font-size:20px; padding:5px
     }
-   
+    #image-container{
+        height: fit-content;
+        width: fit-content;
+    }
 }

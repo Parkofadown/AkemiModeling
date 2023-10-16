@@ -3,9 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
     <title>Akemi Modeling</title>
 </head>
+
 <body>
-    
+    <p>Akemi's Modeling Photos</p>
+    <div id="image-container"></div>
 </body>
+<script>
+    const images = ['Photos/541517_185720491632416_1143016892_n.jpg',
+    'Photos/625543_185719688299163_1792809067_n.jpg',
+    'Photos/995229_182040092000456_515214557_n.jpg',
+    'Photos/1001598_182040962000369_662209218_n.jpg',
+    'Photos/1005927_202358816635250_2014984779_n.jpg',
+    'Photos/1426413_182040432000422_1123540319_n.jpg',
+    'Photos/1426745_185719768299155_1024371464_n.jpg',
+    'Photos/1441381_185719814965817_1911550152_n.jpg',
+    'Photos/1451977_182041678666964_513730650_n.jpg',
+    'Photos/1452481_185720418299090_1750236713_n.jpg',
+    'Photos/1455862_185719241632541_1802080591_n.jpg',
+    'Photos/1456078_185719751632490_837243394_n.jpg',
+    'Photos/1460024_182040658667066_32139407_n.jpg',
+    'Photos/1461020_185720151632450_1269608210_n.jpg',
+    'Photos/1461131_185719734965825_1063668151_n.jpg',
+    'Photos/1464656_202358886635243_90875071_n.jpg',
+    'Photos/1467417_182052638665868_1061286812_n.jpg',
+    'Photos/1467448_185719671632498_1766296688_n.jpg',
+    'Photos/1471114_182040002000465_1712158270_n.jpg',
+    'Photos/1475904_185719714965827_924348005_n.jpg',
+    'Photos/1476223_185719794965819_712430850_n.jpg',
+    'Photos/1477924_182038758667256_642336066_n.jpg',
+    'Photos/1609789_202358926635239_1935198809_n.jpg',
+    'Photos/11222415_413954342142362_5594159495100252772_n.jpg',
+    'Photos/11659291_410222745848855_5742820210384412057_n.jpg',
+    'Photos/11694164_410222695848860_2235809075597072476_n.jpg'
+    
+    ];
+    
+    const container = document.getElementById('image-container')
+
+    for (let i = 0; i < images.length; i ++){
+        const img = document.createElement('img')
+        img.src= images[i]
+        container.appendChild(img);
+    }
+
+
+</script>
 </html>
